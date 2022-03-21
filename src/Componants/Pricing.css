@@ -1,0 +1,25 @@
+.pricing{
+    background-color: rgb(228, 220, 207);;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding:  2rem 0rem 1rem 0rem;  
+}
+.pricing p{
+    margin-bottom: 0rem;
+}
+.pricing button{
+    margin-top: 1rem;
+}
+.pricing-detail{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    padding: 1rem 2rem; 
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+}
