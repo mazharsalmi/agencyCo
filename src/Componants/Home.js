@@ -1,38 +1,18 @@
 import React from "react";
 import Home from "../Componants/Home.css";
 import { Grid, Typography, TextField, Button, Checkbox } from "@mui/material";
-import logo from "../Images/logo.png";
+
 import ContactlessIcon from "@mui/icons-material/Contactless";
 import AcUnitIcon from "@mui/icons-material/AcUnit";
 import AirIcon from "@mui/icons-material/Air";
 import AirplanemodeActiveIcon from "@mui/icons-material/AirplanemodeActive";
+import Navbar from "./Navbar";
 
 export default function () {
   return (
     <div className="home">
       <Grid container spacing={2}>
-        <Grid item xs={6} md={6} className="logo-side">
-          <img src={logo} alt="logo" />
-        </Grid>
-        <Grid item xs={6} md={6}>
-          <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-              <div className="nav-bar">
-                <ul >
-                  <li >Home</li>
-                  <li >About</li>
-                  <li >Service</li>
-                  <li >Pricing</li>
-                  <li >Pages</li>
-                  <li >Contact</li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </Grid>
-      </Grid>
-      <Grid container spacing={2}>
-        <Grid item xs={6} md={6} className="left-text-side">
+        <Grid item xs={6} md={6} sm={12} xs={12} className="left-text-side">
           <div className="text-company">
             <Typography variant="h3" component="h3">
               We are Digital Agency & Marketing
@@ -65,7 +45,7 @@ export default function () {
             </ul>
           </div>
         </Grid>
-        <Grid item xs={6} md={6} className="left-text-side">
+        <Grid item xs={6} md={6} sm={12} xs={12} className="left-text-side">
           <div className="form">
             <h2>Get a quote today</h2>
             <p>Get response within 24 hours</p>

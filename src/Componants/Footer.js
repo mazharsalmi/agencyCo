@@ -20,8 +20,8 @@ export default function Footer() {
           Contained
         </Button>
       </div>
-      <Grid container spacing={2} className="footer-details">
-        <Grid item xs={4} md={4}>
+      <Grid container spacing={2} className="footer-details" mt={2}>
+        <Grid item xs={4} md={4} sm={10} xs={10}>
           <h3>
             <span style={{ color: "blue" }}>AgencyCo</span>
           </h3>
@@ -35,7 +35,7 @@ export default function Footer() {
             Terms and Conditions
           </p>
         </Grid>
-        <Grid item xs={4} md={4}>
+        <Grid item xs={4} md={4} sm={5} xs={5}>
           <h3>Our location</h3>
           <p>
             <NextPlanOutlinedIcon />
@@ -51,7 +51,7 @@ export default function Footer() {
             Email:mail@example.com
           </p>
         </Grid>
-        <Grid item xs={4} md={4}>
+        <Grid item xs={4} md={4} sm={5} xs={5}>
           <h3>Quick links</h3>
           <p>
             <NextPlanOutlinedIcon />
@@ -73,7 +73,7 @@ export default function Footer() {
       </Grid>
       <div className="copyrights">
       <h3>Copyrights <CopyrightIcon/> 2019. All rights reserved by <span style={{color:'blue'}}>ThemsTags</span></h3>
-      <div>
+      <div className="icon">
       <FacebookIcon/>
       <TwitterIcon/>
       <InstagramIcon/>

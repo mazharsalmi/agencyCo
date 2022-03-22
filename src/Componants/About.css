@@ -1,6 +1,7 @@
 .about{
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    
 }
 .heading{
     display: flex;
@@ -9,9 +10,12 @@
     align-items: center;
     width: 100%;
     text-align: center;
+    padding-left: 4rem;
+    padding-right: 2rem;
 }
+
 .card{
-    background-color: rgb(228, 220, 207);
+    background-color: #f4f7fa;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,6 +33,8 @@
     justify-content: center;
     text-align: start;
     margin-left: 1rem;
+    padding-left: 5rem;
+    padding-top: 4rem;
 }
 .conversion{
     display: flex;
@@ -39,15 +45,37 @@
 .conversion h5{
     margin-bottom: 0%;
 }
+.about_images{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: auto;
+}
 .about_images img{
-    width: 100%;
-    height: 100vh;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    animation-name: labtop;
+    position: relative;
+    animation-duration: 4s;
+
 
 }
+@keyframes labtop {
+    0% {top: -300px;
+    }
+    100% {top: 5px;
+    }
+    
+}
+
 .video-overview{
     background-image: url(../Images//vbackground.jpg);
     width: 100%;
     height: 9rem;
+    margin-top: 4rem;
     background-size: cover;
     background-Repeat: no-repeat;
     color: white;
@@ -57,4 +85,23 @@
     flex-direction: column;
     text-align: center;
     opacity: 0.5;
+}
+.about_details button{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ff8657;
+}
+@media (max-width: 900px) {
+ .about_details{
+     padding-top: 1rem;
+     padding-left: 0rem;
+
+ }
+ .about_details button{
+     width: auto;
+     margin-left: auto;
+     margin-right: auto;
+ }   
+    
 }

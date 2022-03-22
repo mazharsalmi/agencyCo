@@ -13,42 +13,42 @@ export default function Service() {
       <h2>Market your business to own <br/> your market</h2>
       <p>We provide professional services for  grow your business and increases sell digitaal<br/> product</p>
       </Grid>
-      <Grid item xs={4} md={4}>
+      <Grid item xs={4} md={4} xs={12} sm={12} >
       <Box className='card'>
     <SignalCellularAltIcon/>
     <h4>Convert traffic into sales</h4>
     <p> Proactively provide access to distinctive quality vectors for adaptive solutions</p>
     </Box>
       </Grid>
-      <Grid item xs={4} md={4}>
+      <Grid item xs={4} md={4} xs={12} sm={12}>
       <Box className='card'>
     <SignalCellularAltIcon/>
     <h4>Convert traffic into sales</h4>
     <p> Proactively provide access to distinctive quality vectors for adaptive solutions</p>
     </Box>
       </Grid>
-      <Grid item xs={4} md={4}>
+      <Grid item xs={4} md={4} xs={12} sm={12}>
       <Box className='card'>
     <SignalCellularAltIcon/>
     <h4>Convert traffic into sales</h4>
     <p> Proactively provide access to distinctive quality vectors for adaptive solutions</p>
     </Box>
       </Grid>
-      <Grid item xs={4} md={4}>
+      <Grid item xs={4} md={4} xs={12} sm={12}>
       <Box className='card'>
     <SignalCellularAltIcon/>
     <h4>Convert traffic into sales</h4>
     <p> Proactively provide access to distinctive quality vectors for adaptive solutions</p>
     </Box>
       </Grid>
-      <Grid item xs={4} md={4}>
+      <Grid item xs={4} md={4} xs={12} sm={12}>
       <Box className='card'>
     <SignalCellularAltIcon/>
     <h4>Convert traffic into sales</h4>
     <p> Proactively provide access to distinctive quality vectors for adaptive solutions</p>
     </Box>
       </Grid>
-      <Grid item xs={4} md={4}>
+      <Grid item xs={4} md={4} xs={12} sm={12}>
       <Box className='card'>
     <SignalCellularAltIcon/>
     <h4>Convert traffic into sales</h4>

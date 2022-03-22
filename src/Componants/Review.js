@@ -14,7 +14,7 @@ export default function Review() {
         business. Conveniently innovte compelling internal.
       </p>
       <Grid container spacing={1} justifyContent="center">
-        <Grid item xs={5} md={5}>
+        <Grid item xs={5} md={5} sm={12} xs={12}>
           <Box className="commit-customer">
             <p>
               " I just wanted to share a quick note and let you know that you
@@ -32,7 +32,7 @@ export default function Review() {
             </div>
           </Box>
         </Grid>
-        <Grid item xs={5} md={5}>
+        <Grid item xs={5} md={5} sm={12} xs={12}>
           <Box className="commit-customer">
             <p>
               " I just wanted to share a quick note and let you know that you
@@ -50,7 +50,7 @@ export default function Review() {
             </div>
           </Box>
         </Grid>
-        <Grid item xs={5} md={5} className="contact-review">
+        <Grid item xs={5} md={5} className="contact-review" sm={12} xs={12}>
           <h2>Contact with us </h2>
           <p>
             it's very easy to get in touch with us . just use the contact form
@@ -64,10 +64,10 @@ export default function Review() {
             Email:<span style={{ color: "blue" }}>hello@yourdomain.com</span>
           </p>
         </Grid>
-        <Grid item xs={7} md={7} className="contact-review">
+        <Grid item xs={7} md={7} className="contact-review" sm={12} xs={12} pr={7}>
           <h2>Reach us quickly</h2>
           <Grid container spacing={1}>
-            <Grid item xs={6} md={6}>
+            <Grid item xs={6} md={6} >
               <TextField
                 required
                 id="outlined-required"
@@ -76,7 +76,7 @@ export default function Review() {
                 className="message"
               />
             </Grid>
-            <Grid item xs={6} md={6}>
+            <Grid item xs={6} md={6} >
               <TextField
                 required
                 id="outlined-required"
@@ -85,7 +85,7 @@ export default function Review() {
                 className="message"
               />
             </Grid>
-            <Grid item xs={6} md={6}>
+            <Grid item xs={6} md={6} >
               <TextField
                 required
                 id="outlined-required"
@@ -94,7 +94,7 @@ export default function Review() {
                 className="message"
               />
             </Grid>
-            <Grid item xs={6} md={6}>
+            <Grid item xs={6} md={6} >
               <TextField
                 required
                 id="outlined-required"
@@ -103,7 +103,7 @@ export default function Review() {
                 className="message"
               />
             </Grid>
-            <Grid item xs={12} md={12}>
+            <Grid item xs={12} md={12} >
               <TextField
                 required
                 id="outlined-multiline-static"

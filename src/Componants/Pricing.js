@@ -8,7 +8,7 @@ export default function Pricing() {
     <h2> Pricing Packages</h2>
     <p>Uniquely maintain efficient expertise whereas cross functional deliverables. Continually <br/> leverage other competitve mind share whereas enabled channels.</p>
     <Grid container spacing={2} justifyContent='center'>
-        <Grid item xs={3} md={3} >
+        <Grid item xs={3} md={3} xs={12} sm={12} >
         <Box className='pricing-detail'>
         <h2>$29</h2>
         <h6>Basic License</h6>
@@ -23,7 +23,7 @@ export default function Pricing() {
         <Button variant="contained">Purchase now</Button>
         </Box>
         </Grid>
-        <Grid item xs={3} md={3}>
+        <Grid item xs={3} md={3} xs={12} sm={12}>
         <Box className='pricing-detail' style={{backgroundColor:'blue',color:'white'}}>
         <h2>$29</h2>
         <h6>Basic License</h6>
@@ -38,7 +38,7 @@ export default function Pricing() {
         <Button variant="contained" color='secondary'>Purchase now</Button>
         </Box>
         </Grid>
-        <Grid item xs={3} md={3} >
+        <Grid item xs={3} md={3} xs={12} sm={12}>
         <Box className='pricing-detail'>
         <h2>$29</h2>
         <h6>Basic License</h6>
