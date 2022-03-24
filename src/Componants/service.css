@@ -1,9 +1,5 @@
-.service-heading{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+
+.servies{
+    background-color: #f4f7fa;
     margin-top: 3rem;
-    padding-top: 1rem;
 }

@@ -11,8 +11,9 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import logo from '../Images/logo.png';
+import logo from "../Images/logo.png";
 import navbar from "../Componants/Navbar.css";
+import { useState } from "react";
 
 const pages = ["Home", "About", "Service", "Pricing", "Pages", "Contact"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -36,9 +37,13 @@ const Navbar = () => {
     setAnchorElUser(null);
   };
 
+  
+
+  
+
   return (
     <AppBar position="fixed">
-      <Container maxWidth="xl" style={{backgroundColor:''}}>
+      <Container maxWidth="xl" className="a">
         <Toolbar disableGutters>
           <Typography
             variant="h6"
@@ -71,7 +76,7 @@ const Navbar = () => {
               keepMounted
               transformOrigin={{
                 vertical: "top",
-                horizontal: "left",
+                horizontal: "right",
               }}
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
@@ -95,7 +100,10 @@ const Navbar = () => {
           >
             <img src={logo} alt="logo" />
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }} className="list">
+          <Box
+            sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
+            className="list"
+          >
             {pages.map((page) => (
               <Button
                 key={page}

@@ -1,5 +1,5 @@
 .pricing{
-    background-color: #f4f7fa;
+    /* background-color: #f4f7fa; */
     margin-top: 3rem;
     display: flex;
     justify-content: center;
@@ -22,6 +22,18 @@
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 0.25rem;
     margin-top: 1rem;
+    cursor: pointer;
+    width: 99%;
+
+}
+.pricing-detail:hover{
+    color: wheat;
+    background-color: #6610f2;
+    box-shadow: 5px 5px 15px 5px;
+    border-radius:0.5rem ;
+    width: 100%;
+    position: relative;
+    top: -5px;
 }
 
 @media (max-width: 900px) {

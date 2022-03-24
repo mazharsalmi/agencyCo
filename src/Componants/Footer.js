@@ -1,30 +1,20 @@
 import React from "react";
 import footer from "../Componants/Footer.css";
-import { Button, Grid } from "@mui/material";
+import { Button, Container, Grid } from "@mui/material";
 import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 import CopyrightIcon from '@mui/icons-material/Copyright';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import NextPlanOutlinedIcon from '@mui/icons-material/NextPlanOutlined';
+import logo from '../Images/logo.png'
 export default function Footer() {
   return (
-    <div className="footer">
-      <div className="footer-img">
-        <h2>Discover AgencyCo.it's easier than you think.</h2>
-        <p>
-          progressively deliver market-driven quality vectors rather than
-          goal-oriented niche markets.
-        </p>
-        <Button variant="contained" color="primary">
-          Contained
-        </Button>
-      </div>
-      <Grid container spacing={2} className="footer-details" mt={2}>
-        <Grid item xs={4} md={4} sm={10} xs={10}>
-          <h3>
-            <span style={{ color: "blue" }}>AgencyCo</span>
-          </h3>
+    <div className="footer"> 
+    <Container>
+      <Grid container spacing={2} className="footer-details">
+        <Grid item xs={4} md={4} sm={10} xs={10} className="footer-section">
+        <img src={logo} alt='logo'/>
           <p>
             Holisticly empower premium architecutres without value-added ideas.
             Seamlessy evolve cross-platform experiences adn open-source
@@ -71,14 +61,16 @@ export default function Footer() {
           </p>
         </Grid>
       </Grid>
+      
       <div className="copyrights">
-      <h3>Copyrights <CopyrightIcon/> 2019. All rights reserved by <span style={{color:'blue'}}>ThemsTags</span></h3>
-      <div className="icon">
+      <h5>Copyrights <CopyrightIcon/> 2019. All rights reserved by <span style={{color:'blue'}}>ThemsTags</span></h5>
+      <div className="footer_icon">
       <FacebookIcon/>
       <TwitterIcon/>
       <InstagramIcon/>
       </div>
       </div>
+      </Container>
     </div>
   );
 }

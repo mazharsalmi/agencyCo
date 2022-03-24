@@ -12,7 +12,7 @@ export default function () {
   return (
     <div className="home">
       <Grid container spacing={2}>
-        <Grid item xs={6} md={6} sm={12} xs={12} className="left-text-side">
+        <Grid item xs={12} md={6} sm={12} className="left-text-side" style={{justifyContent: 'center'}}>
           <div className="text-company">
             <Typography variant="h3" component="h3">
               We are Digital Agency & Marketing
@@ -45,7 +45,7 @@ export default function () {
             </ul>
           </div>
         </Grid>
-        <Grid item xs={6} md={6} sm={12} xs={12} className="left-text-side">
+        <Grid item xs={12} md={6} sm={12} xs={12} className="left-text-side">
           <div className="form">
             <h2>Get a quote today</h2>
             <p>Get response within 24 hours</p>

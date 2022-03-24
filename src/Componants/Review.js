@@ -14,7 +14,24 @@ export default function Review() {
         business. Conveniently innovte compelling internal.
       </p>
       <Grid container spacing={1} justifyContent="center">
-        <Grid item xs={5} md={5} sm={12} xs={12}>
+        <Grid item xs={10} md={5} sm={10} >
+          <Box className="commit-customer">
+            <p>
+              " I just wanted to share a quick note and let you know that you
+              guys do a really good job. i'm glad i decided to work with you.
+              its really great how easy your websites are to update and manage .
+              i never have any problem ata all.
+            </p>
+            <div className="avatar-img">
+              <Avatar alt="" src={avater} />
+              <h5>
+                <span style={{ color: "blue" }}>Ciaran kierce</span>
+                <p>AppCo</p>
+              </h5>
+            </div>
+          </Box>
+        </Grid>
+        <Grid item xs={10} md={5} sm={10} >
           <Box className="commit-customer">
             <p>
               " I just wanted to share a quick note and let you know that you
@@ -32,25 +49,7 @@ export default function Review() {
             </div>
           </Box>
         </Grid>
-        <Grid item xs={5} md={5} sm={12} xs={12}>
-          <Box className="commit-customer">
-            <p>
-              " I just wanted to share a quick note and let you know that you
-              guys do a really good job. i'm glad i decided to work with you.
-              its really great how easy your websites are to update and manage .
-              i never have any problem ata all.
-            </p>
-            <div className="avatar-img">
-              <Avatar alt="" src={avater} />
-              <h5>
-                {" "}
-                <span style={{ color: "blue" }}>Ciaran kierce</span>
-                <p>AppCo</p>
-              </h5>
-            </div>
-          </Box>
-        </Grid>
-        <Grid item xs={5} md={5} className="contact-review" sm={12} xs={12}>
+        <Grid item  md={5} className="contact-review" sm={10} xs={10}>
           <h2>Contact with us </h2>
           <p>
             it's very easy to get in touch with us . just use the contact form
@@ -64,10 +63,10 @@ export default function Review() {
             Email:<span style={{ color: "blue" }}>hello@yourdomain.com</span>
           </p>
         </Grid>
-        <Grid item xs={7} md={7} className="contact-review" sm={12} xs={12} pr={7}>
+        <Grid item  md={7} className="contact-review" sm={10} xs={10} pr={7}>
           <h2>Reach us quickly</h2>
           <Grid container spacing={1}>
-            <Grid item xs={6} md={6} >
+            <Grid item xs={12} md={6} >
               <TextField
                 required
                 id="outlined-required"
@@ -76,7 +75,7 @@ export default function Review() {
                 className="message"
               />
             </Grid>
-            <Grid item xs={6} md={6} >
+            <Grid item xs={12} md={6} >
               <TextField
                 required
                 id="outlined-required"
@@ -85,7 +84,7 @@ export default function Review() {
                 className="message"
               />
             </Grid>
-            <Grid item xs={6} md={6} >
+            <Grid item xs={12} md={6} >
               <TextField
                 required
                 id="outlined-required"
@@ -94,7 +93,7 @@ export default function Review() {
                 className="message"
               />
             </Grid>
-            <Grid item xs={6} md={6} >
+            <Grid item xs={12} md={6} >
               <TextField
                 required
                 id="outlined-required"

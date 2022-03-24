@@ -6,13 +6,18 @@
     text-align: center;
     padding-top: 1rem;
     margin-top: 3rem;
+    background-color: #f4f7fa;
     
 }
 .commit-customer{
-    border: 1px solid  rgb(126, 120, 120);
-    padding: 0.5rem;
+    border: 1px solid  rgb(160, 155, 155);
+    padding: 1.5rem;
     margin-bottom: 3rem;
-
+    background-color: white;
+}
+.commit-customer p{
+    
+    color: rgb(49, 48, 48);
 }
 
 .avatar-img{
@@ -26,11 +31,10 @@
     font-size: small;
 }
 .contact-review{
-    background-color: #f4f7fa;
+    background-color: white;
     padding-top: 2rem !important;
     text-align: start;
     padding-left: 6rem !important;
-
     margin-left: 1rem;
 }
 .contact-review button{
@@ -44,6 +48,7 @@
     .contact-review{
         padding-left: 1rem !important;
         padding-top: 2rem !important;
+        padding-right: 1rem !important;
     }
     
 }
