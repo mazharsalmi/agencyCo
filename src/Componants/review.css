@@ -9,6 +9,20 @@
     background-color: #f4f7fa;
     
 }
+.rever-uper{
+    padding: 3rem 0rem;
+}
+.rever-uper p{
+    padding: 40px;
+}
+.review h2{
+    font-size: 2.44em;
+    margin: 0 0 1rem;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 600;
+    line-height: 1.21;
+    color: in
+}
 .commit-customer{
     border: 1px solid  rgb(160, 155, 155);
     padding: 1.5rem;
@@ -25,6 +39,8 @@
     text-align: start;
 }
 .avatar-img h5{
+    display: flex;
+    flex-direction: column;
     margin-left: 0.5rem;
 }
 .avatar-img p{
@@ -32,10 +48,12 @@
 }
 .contact-review{
     background-color: white;
-    padding-top: 2rem !important;
+    padding: 4rem 0rem !important;
+    
+
     text-align: start;
     padding-left: 6rem !important;
-    margin-left: 1rem;
+
 }
 .contact-review button{
     margin-top: 1rem;

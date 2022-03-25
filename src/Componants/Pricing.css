@@ -7,8 +7,17 @@
     flex-direction: column;
     padding:  2rem 0rem 1rem 0rem;  
 }
+.pricing h2{
+    margin: 0 0 1rem;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 600;
+    line-height: 1.21;
+    color: initial;
+}
 .pricing p{
-    margin-bottom: 0rem;
+    margin-bottom: 23.43px;
+    font-size: 1.25rem;
+    font-weight: 300;
 }
 .pricing button{
     margin-top: 1rem;
@@ -25,6 +34,14 @@
     cursor: pointer;
     width: 99%;
 
+}
+.pricing-detail #doller{
+    padding: 45px 18px;
+}
+.pricing-detail #card-body{
+    list-style: none;
+    padding: 22px;
+    line-height: 2rem;
 }
 .pricing-detail:hover{
     color: wheat;

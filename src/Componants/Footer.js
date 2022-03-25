@@ -13,52 +13,52 @@ export default function Footer() {
     <div className="footer"> 
     <Container>
       <Grid container spacing={2} className="footer-details">
-        <Grid item xs={4} md={4} sm={10} xs={10} className="footer-section">
+        <Grid item  md={4} sm={10} xs={10} className="footer-section">
         <img src={logo} alt='logo'/>
           <p>
             Holisticly empower premium architecutres without value-added ideas.
             Seamlessy evolve cross-platform experiences adn open-source
             meta-services.
           </p>
-          <p>
+          <li>
             <NextPlanOutlinedIcon /> Privacy policy <NextPlanOutlinedIcon />
             Terms and Conditions
-          </p>
+          </li>
         </Grid>
-        <Grid item xs={4} md={4} sm={5} xs={5}>
-          <h3>Our location</h3>
-          <p>
+        <Grid item xs={4} md={4} sm={5}  className="footer-section">
+          <h5>Our location</h5>
+          <li>
             <NextPlanOutlinedIcon />
             Address:121 king melbourme
-          </p>
-          <p> Australia 3000</p>
-          <p>
+          </li>
+          <li> Australia 3000</li>
+          <li>
             <NextPlanOutlinedIcon />
             Phon:+6137678
-          </p>
-          <p>
+          </li>
+          <li>
             <NextPlanOutlinedIcon />
             Email:mail@example.com
-          </p>
+          </li>
         </Grid>
-        <Grid item xs={4} md={4} sm={5} xs={5}>
-          <h3>Quick links</h3>
-          <p>
+        <Grid item xs={4} md={4} sm={5} className="footer-section">
+          <h5>Quick links</h5>
+          <li>
             <NextPlanOutlinedIcon />
             About us
-          </p>
-          <p>
+          </li>
+          <li>
             <NextPlanOutlinedIcon />
             Our Service
-          </p>
-          <p>
+          </li>
+          <li>
             <NextPlanOutlinedIcon />
             pricing
-          </p>
-          <p>
+          </li>
+          <li>
             <NextPlanOutlinedIcon />
             Contact us
-          </p>
+          </li>
         </Grid>
       </Grid>
       

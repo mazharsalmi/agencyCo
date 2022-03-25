@@ -13,13 +13,13 @@ export default function about() {
   return (
     <div className='about'>
     
-    <div className='heading '>
+    <div className='heading ' mt={'10rem'}>
     <h3> Why dose your business need AgencyCo</h3>
     <p>Following reasons show advantages of adding AgencyCo to your lead pages,<br/> demos and checkout</p>
     </div>
     <Grid container spacing={4} p='2rem' style={{justifyContent:'center'}} >
     
-    <Grid item xs={3} md={3}sm={12} xs={12} >
+    <Grid item xs={12} md={3}sm={12} className="card-style" >
     <Box className='card'>
     <img src={labtop} alt='labtop'/>
     
@@ -27,14 +27,14 @@ export default function about() {
     <p> Proactively provide access to distinctive quality vectors for adaptive solutions</p>
     </Box>
     </Grid>
-    <Grid item xs={3} md={3} sm={12} xs={12}>
+    <Grid item xs={12} md={3} sm={12} className="card-style">
     <Box className='card'>
     <img src={labtop} alt='labtop'/>
     <h4>Convert traffic into sales</h4>
     <p> Proactively provide access to distinctive quality vectors for adaptive solutions</p>
     </Box>
     </Grid>
-    <Grid item xs={3} md={3} sm={6} xs={12}>
+    <Grid item  md={3} sm={12} xs={12} className="card-style">
     <Box className='card'>
     <img src={labtop} alt='labtop'/>
     <h4>Convert traffic into sales</h4>
@@ -44,9 +44,9 @@ export default function about() {
     
     </Grid>
     <Grid container spacing={2} bgcolor='#f4f7fa' mt='2rem'>
-    <Grid item xs={6} md={6} sm={12} xs={12}>
+    <Grid item xs={6} md={6} sm={12} xs={12} >
     <div className='about_details'>
-    <h5><span style={{color:'red'}}>About us</span></h5>
+    <h5><span style={{color:'#ff8657'}}>About us</span></h5>
     <h2>We help drive your business forward faster</h2>
     <p>Proactively syndicate open-source e-markets after low-risk high-yied synergy. professionally simplify visionary technology before team driven sources.</p>
     <Grid container spacing={2}>

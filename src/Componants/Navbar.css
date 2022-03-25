@@ -28,3 +28,29 @@ body {
   text-align: center;
   align-items: center;
 }
+ul{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  list-style: none;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 0%;
+}
+.link-style{
+  text-decoration: none;
+  color: black;
+}
+ul li{
+  padding: 1rem;
+  cursor: pointer;
+}
+ul li:hover{
+  color: white !important;
+  
+}
+.toggle{
+  display: flex;
+  flex-direction: column;
+}

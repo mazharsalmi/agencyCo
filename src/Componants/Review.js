@@ -6,14 +6,16 @@ import avater from "../Images/avater.jpg";
 export default function Review() {
   return (
     <div className="review">
-      <h2>What Customer say about us</h2>
-      <p>
-        Rapidiously morph transparent internal or 'organic' sources whereas
-        resource sucking e-
-        <br />
-        business. Conveniently innovte compelling internal.
-      </p>
-      <Grid container spacing={1} justifyContent="center">
+    <Grid container spacing={1} justifyContent="center" className="rever-uper">
+        <Grid item xs={8} md={8} sm={8} >
+        <h2>What Customer say about us</h2>
+        <p>
+          Rapidiously morph transparent internal or 'organic' sources whereas
+          resource sucking e-business. Conveniently innovte compelling internal.
+        </p>
+        </Grid>  
+    
+  
         <Grid item xs={10} md={5} sm={10} >
           <Box className="commit-customer">
             <p>
@@ -26,7 +28,7 @@ export default function Review() {
               <Avatar alt="" src={avater} />
               <h5>
                 <span style={{ color: "blue" }}>Ciaran kierce</span>
-                <p>AppCo</p>
+                <span>AppCo</span>
               </h5>
             </div>
           </Box>
@@ -42,15 +44,16 @@ export default function Review() {
             <div className="avatar-img">
               <Avatar alt="" src={avater} />
               <h5>
-                {" "}
                 <span style={{ color: "blue" }}>Ciaran kierce</span>
-                <p>AppCo</p>
+                <span>AppCo</span>
               </h5>
             </div>
           </Box>
         </Grid>
+        </Grid>
+        <Grid container spacing={1} justifyContent="center" >
         <Grid item  md={5} className="contact-review" sm={10} xs={10}>
-          <h2>Contact with us </h2>
+          <h3>Contact with us </h3>
           <p>
             it's very easy to get in touch with us . just use the contact form
             or pay us a visit for a coffee at the office .Dynamically innvoate
@@ -64,9 +67,9 @@ export default function Review() {
           </p>
         </Grid>
         <Grid item  md={7} className="contact-review" sm={10} xs={10} pr={7}>
-          <h2>Reach us quickly</h2>
+          <h5>Reach us quickly</h5>
           <Grid container spacing={1}>
-            <Grid item xs={12} md={6} >
+            <Grid item xs={12} md={5} >
               <TextField
                 required
                 id="outlined-required"
@@ -75,7 +78,7 @@ export default function Review() {
                 className="message"
               />
             </Grid>
-            <Grid item xs={12} md={6} >
+            <Grid item xs={12} md={5} >
               <TextField
                 required
                 id="outlined-required"
@@ -84,7 +87,7 @@ export default function Review() {
                 className="message"
               />
             </Grid>
-            <Grid item xs={12} md={6} >
+            <Grid item xs={12} md={5} >
               <TextField
                 required
                 id="outlined-required"
@@ -93,7 +96,7 @@ export default function Review() {
                 className="message"
               />
             </Grid>
-            <Grid item xs={12} md={6} >
+            <Grid item xs={12} md={5} >
               <TextField
                 required
                 id="outlined-required"
@@ -102,7 +105,7 @@ export default function Review() {
                 className="message"
               />
             </Grid>
-            <Grid item xs={12} md={12} >
+            <Grid item xs={12} md={10} >
               <TextField
                 required
                 id="outlined-multiline-static"

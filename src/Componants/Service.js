@@ -9,10 +9,10 @@ import ourservies from "../Images/sarvises.png"
 export default function Service() {
   return (
   
-    <Grid container className="servies" >
+    <Grid container className="servies"  >
     <Grid item xs={12} md={6} sm={12} >
     <div className='about_details'>
-    <h5><span style={{color:'red'}}>Our Service</span></h5>
+    <h5><span style={{color:'#FF8675'}}>Our Service</span></h5>
     <h2>We Are Happy to Assist You all Time Momentlnsights</h2>
     <p>Proactively syndicate open-source e-markets after low-risk high-yied synergy. professionally simplify visionary technology before team driven sources.</p>
     <Grid container spacing={2}>

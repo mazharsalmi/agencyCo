@@ -14,9 +14,8 @@ import MenuItem from "@mui/material/MenuItem";
 import logo from "../Images/logo.png";
 import navbar from "../Componants/Navbar.css";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
-const pages = ["Home", "About", "Service", "Pricing", "Pages", "Contact"];
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 const Navbar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -36,10 +35,6 @@ const Navbar = () => {
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
   };
-
-  
-
-  
 
   return (
     <AppBar position="fixed">
@@ -84,11 +79,23 @@ const Navbar = () => {
                 display: { xs: "block", md: "none" },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
-                </MenuItem>
-              ))}
+              <ul className="toggle">
+                <li>
+                  <Link className="link-style" to="/">Home</Link>
+                </li>
+                <li>
+                  <Link className="link-style" to="/About">About</Link>
+                </li>
+                <li>
+                  <Link className="link-style" to="/Service">Service</Link>
+                </li>
+                <li>
+                  <Link className="link-style" to="/Pricing">Pricing</Link>
+                </li>
+                <li>
+                  <Link className="link-style" to="/review">Review</Link>
+                </li>
+              </ul>
             </Menu>
           </Box>
           <Typography
@@ -104,15 +111,24 @@ const Navbar = () => {
             sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
             className="list"
           >
-            {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "white", display: "block" }}
-              >
-                {page}
-              </Button>
-            ))}
+            <ul>
+            <li>
+            <Link className="link-style" to="/">Home</Link>
+          </li>
+          <li>
+            <Link className="link-style" to="/About">About</Link>
+          </li>
+          <li>
+            <Link className="link-style" to="/Service">Service</Link>
+          </li>
+          <li>
+            <Link className="link-style" to="/Pricing">Pricing</Link>
+          </li>
+          <li>
+            <Link className="link-style" to="/review">Review</Link>
+          </li>
+
+            </ul>
           </Box>
         </Toolbar>
       </Container>

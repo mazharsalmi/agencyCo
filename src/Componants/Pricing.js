@@ -5,52 +5,67 @@ import {Grid,Box,Divider,Button} from "@mui/material"
 export default function Pricing() {
   return (
     <div className='pricing'>
-    <h2> Pricing Packages</h2>
-    <p>Uniquely maintain efficient expertise whereas cross functional deliverables. Continually <br/> leverage other competitve mind share whereas enabled channels.</p>
+    <Grid container spacing={1} justifyContent='center'>
+    <Grid item xs={10} md={10} sm={10}>
+<h2> Pricing Packages</h2>
+<p>Uniquely maintain efficient expertise whereas cross functional deliverables. Continually <br/> leverage other competitve mind share whereas enabled channels.</p>
+
+</Grid>
+    </Grid>
     <Grid container spacing={2} justifyContent='center'>
+
         <Grid item xs={10} md={3}  sm={10} >
         <Box className='pricing-detail'>
-        <h2>$29</h2>
-        <h6>Basic License</h6>
+         <div id='doller'>
+         <h1>$29</h1>
+        <h6>Basic License</h6></div>
         <Divider />
-        <p>Push Notifications</p>
-        <p> Data Transfer</p>
-        <p>SQL Database</p>
-        <p>Search & SEO  Analytics</p>
-        <p> 24/7 Phone Support</p>
-        <p>2 month technical support</p>
-        <p> 2 + profitable keyword</p>
+        <div id='card-body'>
+        <li>Push Notifications</li>
+        <li>Data Transfer</li>
+        <li>SQL Database</li>
+        <li>Search & SEO  Analytics</li>
+        <li>24/7 Phone Support</li>
+        <li>2 month technical support</li>
+        <li>2 + profitable keyword</li>
         <Button variant="contained">Purchase now</Button>
+        </div>
         </Box>
         </Grid>
-        <Grid item xs={10} md={3}  sm={12}>
+        <Grid item xs={10} md={3}  sm={10}>
         <Box className='pricing-detail'>
-        <h2>$29</h2>
-        <h6>Basic License</h6>
+         <div id='doller'>
+         <h1>$29</h1>
+        <h6>Basic License</h6></div>
         <Divider />
-        <p>Push Notifications</p>
-        <p> Data Transfer</p>
-        <p>SQL Database</p>
-        <p>Search & SEO  Analytics</p>
-        <p> 24/7 Phone Support</p>
-        <p>2 month technical support</p>
-        <p> 2 + profitable keyword</p>
-        <Button variant="contained" color='secondary'>Purchase now</Button>
+        <div id='card-body'>
+        <li>Push Notifications</li>
+        <li>Data Transfer</li>
+        <li>SQL Database</li>
+        <li>Search & SEO  Analytics</li>
+        <li>24/7 Phone Support</li>
+        <li>2 month technical support</li>
+        <li>2 + profitable keyword</li>
+        <Button variant="contained">Purchase now</Button>
+        </div>
         </Box>
         </Grid>
-        <Grid item xs={10} md={3}  sm={12}>
+        <Grid item xs={10} md={3}  sm={10}>
         <Box className='pricing-detail'>
-        <h2>$29</h2>
-        <h6>Basic License</h6>
+         <div id='doller'>
+         <h1>$29</h1>
+        <h6>Basic License</h6></div>
         <Divider />
-        <p>Push Notifications</p>
-        <p> Data Transfer</p>
-        <p>SQL Database</p>
-        <p>Search & SEO  Analytics</p>
-        <p> 24/7 Phone Support</p>
-        <p>2 month technical support</p>
-        <p> 2 + profitable keyword</p>
+        <div id='card-body'>
+        <li>Push Notifications</li>
+        <li>Data Transfer</li>
+        <li>SQL Database</li>
+        <li>Search & SEO  Analytics</li>
+        <li>24/7 Phone Support</li>
+        <li>2 month technical support</li>
+        <li>2 + profitable keyword</li>
         <Button variant="contained">Purchase now</Button>
+        </div>
         </Box>
         </Grid>
         </Grid>
