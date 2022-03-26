@@ -55,6 +55,8 @@
 @media (max-width:900px) {
 .copyrights {
     flex-direction: column;
+    margin-left: auto;
+    padding-left: 1rem;
     
 }
 .icon{

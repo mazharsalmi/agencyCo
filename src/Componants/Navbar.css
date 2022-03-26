@@ -16,18 +16,18 @@ body {
 .a {
   background-color: #f4f7fa;
 }
-.menu-appbar {
+/* #menu-appbar {
   width: 21rem;
   background-color: black;
   color: wheat;
   display: flex;
   flex-direction: column;
-  position: relative;
-  top: 0rem;
+  position: absolute;
+  top: 7rem;
   justify-content: center;
   text-align: center;
   align-items: center;
-}
+} */
 ul{
   display: flex;
   justify-content: center;
@@ -53,4 +53,12 @@ ul li:hover{
 .toggle{
   display: flex;
   flex-direction: column;
+
 }
+/* #menu-appbar{
+  width: 50%;
+  background-color: black;
+  position: absolute;
+  top: 7rem;
+
+} */

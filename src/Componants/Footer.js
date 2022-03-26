@@ -25,7 +25,7 @@ export default function Footer() {
             Terms and Conditions
           </li>
         </Grid>
-        <Grid item xs={4} md={4} sm={5}  className="footer-section">
+        <Grid item xs={10} md={4} sm={10}  className="footer-section">
           <h5>Our location</h5>
           <li>
             <NextPlanOutlinedIcon />
@@ -41,7 +41,7 @@ export default function Footer() {
             Email:mail@example.com
           </li>
         </Grid>
-        <Grid item xs={4} md={4} sm={5} className="footer-section">
+        <Grid item xs={10} md={4} sm={10} className="footer-section">
           <h5>Quick links</h5>
           <li>
             <NextPlanOutlinedIcon />

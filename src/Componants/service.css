@@ -3,3 +3,40 @@
     background-color: #f4f7fa;
     margin-top: 3rem;
 }
+.services_images img{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    top: 8rem;
+    animation-name: service;
+    position: relative;
+    animation-duration: 5s;
+    
+}
+@keyframes service{
+    0% {top: -100px;
+    }
+    100% {top: 8rem;
+    }
+}
+@media (max-width:900px) {
+    .services_images img{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        top:1rem;
+        animation-name: service;
+        position: relative;
+        animation-duration: 5s;
+        
+    }
+    @keyframes service{
+        0% {top: -100px;
+        }
+        100% {top: 1rem;
+        }
+
+    
+}}
