@@ -3,6 +3,9 @@
     background-color: #f4f7fa;
     margin-top: 3rem;
 }
+.services_images{
+    height: 100vh;
+}
 .services_images img{
     width: 60%;
     margin-left: auto;

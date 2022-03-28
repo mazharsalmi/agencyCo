@@ -12,9 +12,9 @@ export default function Pricing() {
 
 </Grid>
     </Grid>
-    <Grid container spacing={2} justifyContent='center'>
+    <Grid container spacing={2} justifyContent="center">
 
-        <Grid item xs={10} md={3}  sm={10} >
+        <Grid item xs={10} md={3}  sm={10}>
         <Box className='pricing-detail'>
          <div id='doller'>
          <h1>$29</h1>

@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "../Componants/Home.css";
-import { Grid, Typography, TextField, Button, Checkbox } from "@mui/material";
+import { Grid, Typography, TextField, Button, Checkbox, backdropClasses } from "@mui/material";
 
 import ContactlessIcon from "@mui/icons-material/Contactless";
 import AcUnitIcon from "@mui/icons-material/AcUnit";
@@ -8,9 +8,12 @@ import AirIcon from "@mui/icons-material/Air";
 import AirplanemodeActiveIcon from "@mui/icons-material/AirplanemodeActive";
 import Navbar from "./Navbar";
 
+
+
 export default function () {
   return (
     <div className="home">
+    <Navbar />
       <Grid container spacing={2}>
         <Grid item xs={12} md={6} sm={12} className="left-text-side" style={{justifyContent: 'center'}}>
           <div className="text-company">

@@ -1,6 +1,6 @@
 .logo-img {
-  width: 3rem;
-  height: 3rem;
+  width: 5rem;
+  height: 5rem;
 }
 .list {
   display: flex;
@@ -9,18 +9,27 @@
 body {
   font-family: "Comfortaa", sans-serif;
 }
+.nav-bg{
+  background-image: url(../Images/backgrond.jpg);
+  
+}
+
 
 .header  {
   /* background-color: #f4f7fa; */
-  background-color: #ff8657;
-  color: white !important;
+  background-color: transparent;
 }
 
 .header-bg{
   background-color: #f4f7fa;
   transition: .3s ease-in-out;
 }
-
+.header-bg .link-style{
+  color: black;
+}
+.link-style{
+  color: black;
+}
 
 ul{
   display: flex;
@@ -34,7 +43,7 @@ ul{
 }
 .link-style{
   text-decoration: none;
-  color: black;
+  color: white;
 }
 ul li{
   padding: 1rem;
@@ -48,4 +57,7 @@ ul li:hover{
   display: flex;
   flex-direction: column;
 
+}
+.toggle li{
+  color: black;
 }

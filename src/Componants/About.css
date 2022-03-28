@@ -10,8 +10,8 @@
     align-items: center;
     width: 100%;
     text-align: center;
-    padding-left: 4rem;
-    padding-right: 2rem;
+     padding-left: 4rem; 
+    padding-right: 2rem; 
     margin-top: 6rem;
 }
 
@@ -92,6 +92,7 @@
     text-align: center;
     margin-top: 3rem;
     margin-bottom: auto;
+    height: 100vh;
 }
 .about_images #img1{
     width: 60%;
@@ -180,7 +181,8 @@
 
  }
  .heading{
-     padding-left: 2rem;
+     padding-left: 0rem;
+     padding-right: 0rem;
  }
  .about_details button{
      width: auto;

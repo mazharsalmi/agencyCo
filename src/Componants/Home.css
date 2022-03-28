@@ -1,6 +1,4 @@
-*{
-    
-}
+
 .home{
     font-family: 'Comfortaa',  sans-serif;
     background-image: url(../Images/backgrond.jpg);
@@ -107,10 +105,10 @@
         margin-left: auto;
     }
     .text-company{
-        margin-left: auto;
-        margin-right: auto;
-        padding-right: auto;
-        padding-left: auto;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        padding-right: 0rem;
+        padding-left: 0rem;
         margin-top: 2rem;
     }
     .trusted{

@@ -10,7 +10,7 @@ import Container from "@mui/material/Container";
 
 import logo from "../Images/logo.png";
 import navbar from "../Componants/Navbar.css";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -35,13 +35,15 @@ const Navbar = () => {
   // const handleCloseUserMenu = () => {
   //   setAnchorElUser(null);
   // };
-
+  useEffect(() => {
+    window.scrollBy(0, 0)
+  }, [])
   return (
-    <AppBar position="fixed">
+    <AppBar position="fixed"  className='nav-bg'>
       <Container maxWidth="xl" className={color ? 'header header-bg': 'header'}>
         <Toolbar disableGutters>
           <Typography
-            variant="h6"
+          variant="h6"
             noWrap
             component="div"
             sx={{ mr: 2, display: { xs: "none", md: "flex" } }}

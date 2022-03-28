@@ -23,7 +23,7 @@
     margin-top: 1rem;
 }
 .pricing-detail{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     background-color: white;
     justify-content: center;
@@ -32,7 +32,18 @@
     border-radius: 0.25rem;
     margin-top: 1rem;
     cursor: pointer;
-    width: 99%;
+    width: 100%; */
+    background-color: #f4f7fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 1rem;
+    align-items: center;
+    /* padding: 0rem 0rem; */
 
 }
 .pricing-detail #doller{

@@ -8,13 +8,17 @@ import Footer from "./Componants/Footer";
 import Navbar from "./Componants/Navbar";
 import Complete from "./Componants/Complete";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./Componants/ScrollBar";
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
 
+    <ScrollToTop/>
+      <Navbar />
+      
+      
       <Routes>
         <Route exact path="/" element={<Complete/>} />
         <Route exact path="/about" element={<About/>} />
