@@ -36,6 +36,9 @@
 .text-company h3{
     margin-bottom: 0.5rem;
 }
+.text-company p{
+    line-height: 2rem;
+}
 .form{
     background-color: white;
     width: 60%;

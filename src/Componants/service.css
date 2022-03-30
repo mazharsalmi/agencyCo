@@ -15,12 +15,20 @@
     animation-name: service;
     position: relative;
     animation-duration: 5s;
+    animation-iteration-count: infinite;
     
 }
 @keyframes service{
-    0% {top: -100px;
+    /* 0% {top: -100px
     }
+50%{
+    width: 10rem;
+} */
+0%{
+    width: 10rem;
+}
     100% {top: 8rem;
+
     }
 }
 @media (max-width:900px) {
