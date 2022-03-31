@@ -56,10 +56,13 @@ ul li:hover{
 .toggle{
   display: flex;
   flex-direction: column;
+  background-color: black;
+  width: 15rem;
+  padding-left: 0rem;
 
 }
-.toggle li{
-  color: black;
+#menu-appbar{
+  padding-top: 0rem;
 }
 @media (max-width:900px) {
   .list {
