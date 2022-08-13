@@ -7,11 +7,12 @@ import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
+import { Link, animateScroll as scroll} from 'react-scroll'
 
 import logo from "../Images/logo.png";
 import navbar from "../Componants/Navbar.css";
 import { useState,useEffect } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 const Navbar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   
@@ -115,19 +116,39 @@ const Navbar = () => {
           >
             <ul>
             <li>
-            <Link className="link-style" to="/">Home</Link>
+            <Link className="link-style"  
+            activeClass="active"
+             to="home"
+              spy={true}
+               smooth={true} 
+               offset={50} 
+               duration={500} >
+                Home
+                </Link>
           </li>
           <li>
-            <Link className="link-style" to="/About">About</Link>
+            <Link className="link-style" spy={true}
+               smooth={true} 
+               offset={50} 
+               duration={500} to="About">About</Link>
           </li>
           <li>
-            <Link className="link-style" to="/Service">Service</Link>
+            <Link className="link-style" spy={true}
+               smooth={true} 
+               offset={50} 
+               duration={500} to="Service">Service</Link>
           </li>
           <li>
-            <Link className="link-style" to="/Pricing">Pricing</Link>
+            <Link className="link-style" spy={true}
+               smooth={true} 
+               offset={50} 
+               duration={500}  to="Pricing">Pricing</Link>
           </li>
           <li>
-            <Link className="link-style" to="/review">Review</Link>
+            <Link className="link-style" spy={true}
+               smooth={true} 
+               offset={50} 
+               duration={500} to="review">Review</Link>
           </li>
 
             </ul>

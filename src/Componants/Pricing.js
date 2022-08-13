@@ -4,7 +4,7 @@ import {Grid,Box,Divider,Button} from "@mui/material"
 
 export default function Pricing() {
   return (
-    <div className='pricing'>
+    <div className='pricing' id="review2">
     <Grid container spacing={1} justifyContent='center'>
     <Grid item xs={10} md={10} sm={10}>
 <h2> Pricing Packages</h2>

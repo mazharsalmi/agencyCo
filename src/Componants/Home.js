@@ -12,7 +12,7 @@ import Navbar from "./Navbar";
 
 export default function () {
   return (
-    <div className="home">
+    <div className="home" id="home">
     <Navbar />
       <Grid container spacing={2}>
         <Grid item xs={12} md={6} sm={12} className="left-text-side" style={{justifyContent: 'center'}}>
